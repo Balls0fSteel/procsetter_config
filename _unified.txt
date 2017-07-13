@@ -1,0 +1,45 @@
+# This is the main remote config file for Priority Setter
+# Rules will be parsed first from here, then from your config file.
+
+### Games
+### Important tasks to the user, should always use AboveNormal
+
+# Far Cry Primal
+FCPrimal.exe;AboveNormal
+FCSplash.exe;AboveNormal
+
+# Far Cry 3 - Blood Dragon
+fc3_blooddragon.exe;AboveNormal
+fc3_blooddragon_d3d11.exe;AboveNormal
+fc3_blooddragon_d3d11_b.exe;AboveNormal
+
+# Doom
+DOOMx64.exe;AboveNormal;Doom (2016)
+DOOMx64vk.exe;AboveNormal;Doom (2016) - Vulkan
+
+# Final Fantasy XIV
+Overwatch Launcher.exe;AboveNormal;Final Fantasy XIV
+ 
+# Rainbow Six - Siege
+RainbowSix.exe;AboveNormal;Rainbow Six Siege
+RainbowSix_BE.exe;AboveNormal;Rainbow Six Siege - BattlEye
+RainbowSixGame.exe;AboveNormal;Rainbow Six Siege
+
+# Prey
+Prey.exe;AboveNormal;Prey (2017)
+
+# Titanfall 2
+Titanfall2.exe;AboveNormal
+Titanfall2_trial.exe;AboveNormal
+
+### Junk
+### Put program here that are no hurry but use the wrong priority
+
+# File backup/sharing/cloud
+Dropbox.exe;Idle
+OneDrive.exe;Idle
+
+# TiWorker can wait. Not sure why Microsoft forgot about using priorities
+TiWorker.exe;Idle;Microsoft's update/junk process
+SteelSeriesEngine.exe;Idle;Steelseries controller software
+
